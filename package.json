@@ -1,0 +1,23 @@
+{
+  "name": "jito-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node build/index.js"
+  },
+  "author": "cetipo",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.91.8",
+    "axios": "^1.7.2",
+    "bs58": "^5.0.0",
+    "dotenv": "^16.4.5"
+  }
+}
